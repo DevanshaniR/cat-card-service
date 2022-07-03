@@ -1,0 +1,26 @@
+{
+  "name": "cat-card-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:local": "cross-env NODE_ENV=local node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevanshaniR/cat-card-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevanshaniR/cat-card-service/issues"
+  },
+  "homepage": "https://github.com/DevanshaniR/cat-card-service#readme",
+  "dependencies": {
+    "cross-env": "7.0.3",
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "log4js": "6.5.2",
+    "mongoose": "6.4.2"
+  }
+}
