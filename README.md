@@ -22,3 +22,4 @@ Sample Response:
 {"env": "local", "status": "live", "timestamp": current_utc}
 
 ```
+### Assumed that image data saved in a Mongo DB so we can retrieve the data and send to the blend function in the service layer
