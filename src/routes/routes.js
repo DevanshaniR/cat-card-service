@@ -6,5 +6,6 @@ const router = express.Router();
 
 router.get("/health", healthController.health);
 router.post("/saveImage", catController.saveImage);
+router.post("/blend", catController.blendImages);
 
 module.exports = router;
